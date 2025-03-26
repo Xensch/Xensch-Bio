@@ -4,15 +4,17 @@ body {
     align-items: center;
     height: 100vh;
     overflow: hidden;
-    margin: 0;
+    justify-content: center;
+    text-align: center;
+    max-width: 100vw;
 }
 
 #video {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     z-index: -2; /* Pastikan ada di paling belakang */
 }
@@ -21,8 +23,8 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background: rgba(0, 0, 0, 0.4); /* Warna hitam transparan */
     z-index: -1; /* Biar di atas video tapi di bawah konten lain */
 }
