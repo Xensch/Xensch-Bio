@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     overflow: hidden;
-    justify-content: center;
+    justify-content: start;
     text-align: center;
     width: 100%;
 }
