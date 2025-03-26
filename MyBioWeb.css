@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: auto;
+    height: 100vh;
     overflow: hidden;
     justify-content:;
     text-align: center;
@@ -244,11 +244,12 @@ body {
 
 @media (max-width: 785px) {
     body {
-        height: 100vh;
+        height: auto;
+        justify-content: start;
     }
     .header-profile{
         min-width: 300px;
-        margin-bottom: -60px;
+        margin-bottom: -20px;
     }
 
     body {
@@ -258,7 +259,7 @@ body {
 
     .social-link {
         flex-direction: row;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
 
     .invitation-link {
@@ -268,7 +269,7 @@ body {
     } 
 
     .invitation-link a {
-        height: 75px;
+        height: 60px;
         width: 75%;
         font-size: 30px;
     }
