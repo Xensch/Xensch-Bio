@@ -244,6 +244,9 @@ body {
 }
 
 @media (max-width: 785px) {
+    body {
+        height: 100vh;
+    }
     .header-profile{
         min-width: 300px;
     }
