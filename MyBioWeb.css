@@ -6,7 +6,7 @@ body {
     overflow: hidden;
     justify-content: center;
     text-align: center;
-    max-width: 100vw;
+    width: 100%;
 }
 
 #video {
@@ -244,8 +244,11 @@ body {
 }
 
 @media (max-width: 785px) {
+    body {
+        height: 120vh;
+    }
     .header-profile{
-        min-width: 400px;
+        min-width: 300px;
     }
 
     body {
